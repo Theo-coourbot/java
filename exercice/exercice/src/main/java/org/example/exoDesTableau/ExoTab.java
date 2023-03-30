@@ -1,5 +1,7 @@
 package org.example.exoDesTableau;
-
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import  java.util.Random;
 import java.util.Scanner;
 
 public class ExoTab {
@@ -40,18 +42,18 @@ public class ExoTab {
 
     public static void getMoyenne(){
         int[] table;
-        table = new int[20];
+        table = new int[21];
         int moy = 0;
         int noteMax = -2000000000;
         int noteMin = 2000000000;
 
 
-        for (int i = 0; i <20; i++){
+        for (int i = 1; i <20; i++){
 
             System.out.println("entrer la " +i + " eme note");
             Scanner sc = new Scanner(System.in);
             int tmp = sc.nextInt();
-    if (tmp<=20){
+    if (tmp<=20 && tmp >=0){
         table[i] = tmp;
     } else {
         System.out.println("entre 0 et 20 pls");
@@ -81,7 +83,7 @@ public class ExoTab {
     }
 
     public static void TabDecalage(){
-        char[] tabChar = {'C','U','R','O','D'};
+        char[] tabChar = {'X','L','R','O','Z'};
         char[] tabCharDecale;
         tabCharDecale = new char[5];
 
@@ -99,6 +101,45 @@ public class ExoTab {
             System.out.println(tabCharDecale[i]);
 
         }
+
+
+    }
+    public static  void  askNumber(){
+        System.out.println("donne un nombre pour genere un tbleau de cette taille");
+        Scanner sc = new Scanner(System.in);
+       int tmp = sc.nextInt();
+        generateRandomArray(tmp);
+    }
+    public static int [] generateRandomArray(int nbr){
+        int[] table;
+        table = new int[nbr];
+        int nbrRandom = 0;
+        Random random = new Random();
+
+        for (int i=0; i<table.length;i++){
+          nbrRandom = random.nextInt(100);
+            table[i] = nbrRandom;
+        }
+            System.out.println("Tableau 1 : " +Arrays.toString(table));
+
+        int j = 0;
+        int[] table2;
+        table2 = new int[table.length *2];
+        for (int i=0; i<table2.length;i++){
+
+            if ( i < table.length){
+                table2[i] = table[i];
+            } else {
+
+                table2[i] = table[j]*2;
+                j ++;
+            }
+        }
+
+        System.out.println("Tableau 2 : " +Arrays.toString(table2));
+
+       return table;
+
     }
 
 
