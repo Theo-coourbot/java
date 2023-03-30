@@ -7,6 +7,8 @@ import org.example.exo4conditionPositifNegatif.NumberPosOrNeg;
 import org.example.exo5MemeQue4Ameliorer.ProduitPosOrNeg;
 import org.example.exoComptageDemot.CountWord;
 import org.example.exoDesTableau.ExoTab;
+import org.example.exoTableauSuite.ExoTableauSuite;
+import org.example.triABulle.TrieBulle;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +23,11 @@ public class Main {
         //CountWord.getPalindrome();
         //ExoTab.Caisse();
         //ExoTab.getMoyenne();
-        ExoTab.TabDecalage();
+       // ExoTab.TabDecalage();
+        //ExoTab.TabDecalage();
+        //ExoTab.askNumber();
+        ExoTableauSuite.askNumber();
+        //TrieBulle.trie();
+        //TrieBulle.trieSelection();
     }
 }

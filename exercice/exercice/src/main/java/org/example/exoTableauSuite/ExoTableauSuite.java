@@ -1,7 +1,7 @@
 package org.example.exoTableauSuite;
 
 import java.util.Arrays;
-import java.util.Random;
+
 import java.util.Scanner;
 
 public class ExoTableauSuite {
@@ -11,11 +11,11 @@ public class ExoTableauSuite {
         System.out.println("Taille de votre tableau");
         Scanner sc = new Scanner(System.in);
         int tmp = sc.nextInt();
-       // generateRandomArray(tmp);
+         occurrence(tmp);
         //croissant(tmp);
-        reverseTab(tmp);
+        //reverseTab(tmp);
     }
-    public static int [] generateRandomArray(int nbr){
+    public static void occurrence(int nbr){
         int[] table;
         table = new int[nbr];
         int count = 0;
@@ -28,19 +28,19 @@ public class ExoTableauSuite {
             table[i] = sc.nextInt();
         }
         System.out.println("quelle entier recherche tu ?");
-        Scanner scSeach = new Scanner(System.in);
-        int seach = scSeach.nextInt();
+        Scanner scFind = new Scanner(System.in);
+        int find = scFind.nextInt();
 
         for (int i=0; i<table.length;i++){
-            if (seach == table[i]){
+            if (find == table[i]){
                 count++;            }
         }
-        System.out.println(seach + " est present "+ count + " fois dans votre tableau");
-        return table;
+        System.out.println(find + " est present "+ count + " fois dans votre tableau");
+
 
     }
 
-    public static int [] croissant(int nbr){
+    public static void croissant(int nbr){
         int[] table;
         table = new int[nbr];
         boolean status = false;
@@ -68,10 +68,10 @@ public class ExoTableauSuite {
             System.out.println("le tableau " + Arrays.toString(table) + " n'est pas croissant alors range le =>");
         }
 
-        return table;
+
 
     }
-    public static int [] reverseTab(int nbr){
+    public static void reverseTab(int nbr){
         int[] table;
         int[] table2;
         table = new int[nbr];
@@ -95,7 +95,7 @@ public class ExoTableauSuite {
 
         System.out.println("tableau 1 :" + Arrays.toString(table));
         System.out.println("tableau 2 :" + Arrays.toString(table2));
-        return table;
+
 
     }
 }

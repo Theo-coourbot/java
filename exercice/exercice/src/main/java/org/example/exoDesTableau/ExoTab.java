@@ -103,8 +103,7 @@ public class ExoTab {
         }
 
 
-    }
-    public static  void  askNumber(){
+    }git r(){
         System.out.println("donne un nombre pour genere un tbleau de cette taille");
         Scanner sc = new Scanner(System.in);
        int tmp = sc.nextInt();
