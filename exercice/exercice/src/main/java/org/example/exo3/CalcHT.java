@@ -24,8 +24,9 @@ public class CalcHT {
         Scanner getTVA = new Scanner(System.in);
 
         TVA = getTVA.nextFloat();
+        float calc = priceHT * nuberArt;
 
-        float result = (priceHT * nuberArt) * TVA;
+        float result =  calc * TVA;
         System.out.println("Le prix TTC sera de" + result);
     }
 }
