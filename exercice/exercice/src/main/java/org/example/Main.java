@@ -1,14 +1,7 @@
 package org.example;
 
-import org.example.exo1.NombreCarre;
-import org.example.exo2.GetName;
-import org.example.exo3.CalcHT;
-import org.example.exo4conditionPositifNegatif.NumberPosOrNeg;
-import org.example.exo5MemeQue4Ameliorer.ProduitPosOrNeg;
-import org.example.exoComptageDemot.CountWord;
-import org.example.exoDesTableau.ExoTab;
-import org.example.exoTableauSuite.ExoTableauSuite;
-import org.example.triABulle.TrieBulle;
+import org.example.tpVendredi.exoTab.ExoTab;
+import org.example.tpVendredi.tableau2dimension.ExoTab2D;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,8 +19,18 @@ public class Main {
        // ExoTab.TabDecalage();
         //ExoTab.TabDecalage();
         //ExoTab.askNumber();
-        ExoTableauSuite.askNumber();
+        //ExoTableauSuite.askNumber();
         //TrieBulle.trie();
         //TrieBulle.trieSelection();
+        //JustePrix.price();
+        //ExoTab.Exo1();
+        //ExoTab.Exo2();
+        //ExoTab.Exo3();
+        ExoTab.Exo4();
+
+
+
+
+        //ExoTab2D.exo1();
     }
 }
