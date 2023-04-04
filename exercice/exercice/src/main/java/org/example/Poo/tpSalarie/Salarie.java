@@ -1,6 +1,6 @@
 package org.example.Poo.tpSalarie;
 
-public class Salaire {
+public class Salarie {
     public int matricule=0;
     public static int count = 0;
     public String categorie;
@@ -8,7 +8,7 @@ public class Salaire {
     public  String nom;
     public int salaire;
 
-    public Salaire( String nom, int salaire) {
+    public Salarie(String nom, int salaire) {
         this.matricule = count;
         this.nom = nom;
         this.salaire = salaire;

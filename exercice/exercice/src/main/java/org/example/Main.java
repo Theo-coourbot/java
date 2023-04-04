@@ -51,17 +51,17 @@ public class Main {
         //teatcher.exlain();
 
 
-   //     Demos.main();
+      // Demos.main();
 
 
-        Technicien technicien = new Technicien("rufus", 27,2000,2);
-        Technicien technicien1 = new Technicien("medor", 27,2000,1);
+       //  Technicien technicien = new Technicien("rufus", 27,2000,2);
+       // Technicien technicien1 = new Technicien("medor", 27,2000,1);
 
 
-        technicien.calcsalaire();
+       // technicien.calcsalaire();
 
 
-        technicien1.calcsalaire();
+      //  technicien1.calcsalaire();
 
 
 

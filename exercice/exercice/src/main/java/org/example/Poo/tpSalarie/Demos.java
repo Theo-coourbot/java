@@ -6,26 +6,26 @@ public class Demos {
 
     public static void main  (){
             int salairetotaux = 0;
-        Salaire salaire = new Salaire("Theo",2000);
-        Salaire salaire2 = new Salaire("Thea",1900);
-        Salaire salaire3 = new Salaire("Theou",1500);
-        Salaire salaire4 = new Salaire("Thei",1400);
-        Salaire salaire5 = new Salaire("Teo",2200);
+        Salarie salarie = new Salarie("Theo",2000);
+        Salarie salarie2 = new Salarie("Thea",1900);
+        Salarie salarie3 = new Salarie("Theou",1500);
+        Salarie salarie4 = new Salarie("Thei",1400);
+        Salarie salarie5 = new Salarie("Teo",2200);
 
-        System.out.println("nombre de salariés : " + salaire.count);
-        salaire.afficherSalaire();
-        salaire2.afficherSalaire();
-        salaire3.afficherSalaire();
-        salaire4.afficherSalaire();
-        salaire5.afficherSalaire();
+        System.out.println("nombre de salariés : " + Salarie.count);
+        salarie.afficherSalaire();
+        salarie2.afficherSalaire();
+        salarie3.afficherSalaire();
+        salarie4.afficherSalaire();
+        salarie5.afficherSalaire();
 
-        int[] tab = {salaire.salaire, salaire2.salaire, salaire3.salaire, salaire4.salaire, salaire5.salaire};
+        int[] tab = {salarie.salaire, salarie2.salaire, salarie3.salaire, salarie4.salaire, salarie5.salaire};
         //System.out.println(salaire);
         for (int i=0; i< tab.length;i++){
             salairetotaux+= tab[i];
         }
         System.out.println("le salaire total est de " + salairetotaux + " euros");
-        salaire.setMatricule(1);
-        System.out.println("nombre de salariés : "+ salaire.getMatricule());
+        salarie.setMatricule(1);
+        System.out.println("nombre de salariés : "+ salarie.getMatricule());
     }
 }
