@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.tpVendredi.exoTab.ExoTab;
-import org.example.tpVendredi.tableau2dimension.ExoTab2D;
+import org.example.Poo.TPHeritage.Epargne;
+import org.example.Poo.exoChaisePoo.Chaise;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +26,22 @@ public class Main {
         //ExoTab.Exo1();
         //ExoTab.Exo2();
         //ExoTab.Exo3();
-        ExoTab.Exo4();
+        //ExoTab.Exo4();
+
+       //Chaise chaise = new Chaise(4,"metal","rouge");
+        //System.out.println(chaise);;
+        //Chaise chaise2 = new Chaise();
+        //System.out.println(chaise2);
+        //Chaise.affiche(chaise);
+
+        //Epargne epargne = new Epargne(1,200);
+        //epargne.versement(200);
+        //System.out.println(epargne);
+
+
+
+
+
 
 
 
