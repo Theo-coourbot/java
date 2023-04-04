@@ -9,8 +9,5 @@
         <module name="variables" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="variables" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

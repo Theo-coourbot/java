@@ -1,12 +1,13 @@
 package org.example.Poo.TPHeritage;
 
 public class Compte {
-     int code = 0;
+     int count = 0;
+    int code = 0;
      float solde=0;
 
 
-    public Compte(int code, float solde) {
-        this.code += 1;
+    public Compte( float solde) {
+        this.code = ++count;
         this.solde = solde;
 
 
@@ -19,7 +20,12 @@ public class Compte {
 
     }
     public void retrait(int valeur){
-        this.solde -= valeur;
+        if (valeur > solde){
+            System.out.println("pas asser d'argent sur le compte");
+        }
+        else {
+            this.solde -= valeur;
+        }
 
     }
 

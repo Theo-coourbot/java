@@ -2,8 +2,8 @@ package org.example.Poo.TPHeritage;
 
 public class Simple extends Compte {
 
-    public Simple(int code, float solde ) {
-        super(code, solde);
+    public Simple( float solde ) {
+        super( solde);
     }
     public void retrait(int valeur){
         if (super.solde> -200){

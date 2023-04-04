@@ -2,8 +2,8 @@ package org.example.Poo.TPHeritage;
 
 public class Epargne extends Compte{
     private float interet;
-    public Epargne(int code, float solde) {
-        super(code, solde);
+    public Epargne( float solde) {
+        super( solde);
     }
     public void retrait(int valeur) {
 
