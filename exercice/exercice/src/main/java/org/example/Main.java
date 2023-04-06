@@ -1,7 +1,8 @@
 package org.example;
 
-import org.example.Poo.TpEmploye4bis.Technicien;
-import org.example.Poo.tpSalarie.Demos;
+import org.example.ManagementBook.Demo;
+import org.example.exoRecursive.Exo;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -63,10 +64,15 @@ public class Main {
 
       //  technicien1.calcsalaire();
 
+        //Demo.main();
+        //Exo exo = new Exo();
+        //System.out.println(exo.exo1(8));
+        //Exo.exo2(5,10);
+        //exo.test(4);
+        //Demo.demo();
 
 
-
-
+        Demo.main();
 
 
 

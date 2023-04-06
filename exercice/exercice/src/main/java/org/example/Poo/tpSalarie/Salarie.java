@@ -16,7 +16,9 @@ public class Salarie {
     {
         ++count;
     }
+    public void calculerSalaire(){
 
+    }
 
     public void afficherSalaire(){
 

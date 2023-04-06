@@ -1,2 +1,4 @@
-package org.example.TpHotel;public class Hotel {
+package org.example.TpHotel;
+
+public class Hotel {
 }

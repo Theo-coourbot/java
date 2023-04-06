@@ -1,2 +1,8 @@
-package org.example.ManagementBook;public enum CoverType {
+package org.example.ManagementBook;
+
+public enum CoverType {
+
+
+    Broche,
+    Relie
 }
