@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.ManagementBook.Demo;
+import org.example.TpHotel.Demo;
 import org.example.exoRecursive.Exo;
 
 
@@ -72,6 +72,7 @@ public class Main {
         //Demo.demo();
 
 
+        //Demo.main();
         Demo.main();
 
 

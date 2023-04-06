@@ -27,7 +27,6 @@ public class BookService  {
         return retour;
     }
 
-
     public List<Book> filterBooksByPublisher(Publisher publisher, Book[] book ){
         List<Book> retour = new ArrayList<>(Arrays.asList());
         for (int i = 0 ; i < book.length; i++){
