@@ -12,9 +12,9 @@ public class Demo {
 
 
 
-                new Book(1,"blanche et les sept dalmatiens",new Autor[]{new Autor(1,"super","super")},new Publisher(1,"Marvel"),1990,260,BigDecimal.valueOf(24.99),CoverType.Broche),
+                new Book(1,"blanche neige et les sept dalmatiens",new Autor[]{new Autor(1,"super","super")},new Publisher(1,"Marvel"),1990,260,BigDecimal.valueOf(24.99),CoverType.Broche),
                 new Book(2,"superman vs Jammy",new Autor[]{new Autor(1,"super","man"), new Autor(2,"jammy","sorcier")},new Publisher(2,"Disney"),2000,101,BigDecimal.valueOf(101),CoverType.Broche),
-                new Book(3,"matrique",new Autor[]{new Autor(3,"Lana","Wachowski")},new Publisher(1,"Marvel"),1997,500,BigDecimal.valueOf(10.10),CoverType.Relie),
+                new Book(3,"matrix",new Autor[]{new Autor(3,"Lana","Wachowski")},new Publisher(1,"Marvel"),1997,500,BigDecimal.valueOf(10.10),CoverType.Relie),
                 new Book(4,"kluh",new Autor[]{new Autor(4,"geant","vert")},new Publisher(3,"Mais"),1992,350,BigDecimal.valueOf(34.90),CoverType.Relie)
 
 
