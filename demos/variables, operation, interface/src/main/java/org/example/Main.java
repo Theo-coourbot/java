@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.operator.Operator;
+import org.example.orienterObjet.inner.OuterClass;
 import org.example.stucture.Structure;
 import org.example.variable.Variable;
 
@@ -16,6 +17,11 @@ public class Main {
         //Structure.getIfElse();
         //Structure.getSwitch();
         //Structure.getFor();
-        Structure.getBrakAndContinue();
+        //Structure.getBrakAndContinue();
+//        OuterClass outerClass = new OuterClass();
+//        OuterClass.InnerClass inner = outerClass.new InnerClass();
+//        inner.afficheMessage();
+        //OuterClass.NewClass newClass = new OuterClass.NewClass();
+        //newClass.
     }
 }
