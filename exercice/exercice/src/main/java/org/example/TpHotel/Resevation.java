@@ -4,18 +4,30 @@ import java.util.Date;
 
 public class Resevation {
 
-    String Date;
+    int numero;
     Boolean status;
+    int chambrenumber;
 
     String name;
-    int numero;
 
 
-    public Resevation( String date, Boolean status, String name, int numero) {
 
-        Date = date;
+    public Resevation( int numero, Boolean status, String name , int chambrenumber) {
+
+        this.numero = numero;
         this.status = status;
         this.name = name;
-        this.numero = numero;
+        this.chambrenumber=chambrenumber;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Resevation{" +
+                "numero=" + numero +
+                ", status=" + status +
+                ", chambrenumber=" + chambrenumber +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

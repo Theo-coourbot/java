@@ -14,6 +14,10 @@ public class Chambre {
         this.capacite = capacite;
     }
 
+    public  void changeStatus(){
+        this.status = !this.status;
+    }
+
 
     @Override
     public String toString() {
