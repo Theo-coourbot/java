@@ -1,7 +1,10 @@
 package org.example;
 
+import org.example.collections.ListDemo;
+import org.example.collections.set.SetDemo;
 import org.example.operator.Operator;
 import org.example.orienterObjet.inner.OuterClass;
+import org.example.orienterObjet.statique.Demo;
 import org.example.stucture.Structure;
 import org.example.variable.Variable;
 
@@ -23,5 +26,7 @@ public class Main {
 //        inner.afficheMessage();
         //OuterClass.NewClass newClass = new OuterClass.NewClass();
         //newClass.
+        //ListeDemo.test();
+        SetDemo.main();
     }
 }

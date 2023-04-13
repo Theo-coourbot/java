@@ -1,7 +1,10 @@
 package org.example;
 
 import org.example.TpHotel.Demo;
-import org.example.exoRecursive.Exo;
+import org.example.exoStream.Exo1Trading.DemoExoTrader;
+import org.example.tpCollections.Exo;
+
+import java.util.Scanner;
 
 
 public class Main {
@@ -73,7 +76,44 @@ public class Main {
 
 
         //Demo.main();
-        Demo.main();
+        //Demo.main();
+        //Exo.exo1();
+//
+//        System.out.println("menus");
+//        System.out.println("1 affichage");
+//        System.out.println("2 ajout");
+//        System.out.println("0 quiter");
+//        Scanner sc = new Scanner(System.in);
+//        Scanner scMot = new Scanner(System.in);
+//
+//        int choix = 1;
+//        while (choix != 0 ){
+//         choix = sc.nextInt();
+//
+//
+//        switch (choix){
+//            case(1) : {
+//                Exo.afficherMots();
+//                break;
+//            } case (2) :{
+//                String mot = scMot.nextLine();
+//                Exo.addMot(mot);
+//                System.out.println("mot ajoute");
+//                break;
+//            } case (0) : {
+//                System.out.println("bye");
+//                break;
+//            }
+//            default:{
+//                System.out.println("erreur");
+//                break;
+//            }
+//
+//        }
+//
+//        }
+
+        DemoExoTrader.demo();
 
 
 
