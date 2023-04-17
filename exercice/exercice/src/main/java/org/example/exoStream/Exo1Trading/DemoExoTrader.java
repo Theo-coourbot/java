@@ -58,7 +58,7 @@ public class DemoExoTrader {
 
         System.out.println("8.");
         OptionalInt minValue = transactions.stream().mapToInt(Transaction::getValue).min();
-        System.out.println(minValue);
+        System.out.println(minValue.getAsInt());
 
     };
 

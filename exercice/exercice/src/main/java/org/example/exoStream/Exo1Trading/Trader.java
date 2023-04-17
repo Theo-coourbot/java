@@ -10,7 +10,7 @@ public class Trader {
         this.city = city;
     }
 
-    public String getName() {
+    public  String getName() {
         return this.name;
     }
     public String getCity() {
@@ -24,4 +24,6 @@ public class Trader {
                 ", city='" + city + '\'' +
                 '}';
     }
+
+
 }

@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.TpHotel.Demo;
+import org.example.ManagementBook.Demo;
+import org.example.TpExeption.Exo;
 import org.example.exoStream.Exo1Trading.DemoExoTrader;
-import org.example.tpCollections.Exo;
 
 import java.util.Scanner;
 
@@ -113,11 +113,11 @@ public class Main {
 //
 //        }
 
-        DemoExoTrader.demo();
+        //DemoExoTrader.demo();
 
+        //Demo.main();
 
-
-
+        Exo.lancement();
         //ExoTab2D.exo1();
     }
 }
